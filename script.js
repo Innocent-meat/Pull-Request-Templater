@@ -1,16 +1,16 @@
-$( document ).ready(function() 
+$( document ).ready(function()
 {
-	$('#template').bind('input propertychange', function() 
+	$('#template').bind('input propertychange', function()
 	{
 		updateBookmark();
 	});
 
-	updateBookmark()
+	updateBookmark();
 });
 
 function updateBookmark()
 {
-	var bookmark = $('#bookmark')
+	var bookmark = $('#bookmark');
 
 	templateText = $('#template').val().replace(/\r?\n/g, '\\n'); // Preserve the line formatting
 
