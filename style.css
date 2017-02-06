@@ -17,30 +17,30 @@ marquee { overflow: inherit !important; -moz-binding: none; }
 blink { text-decoration: none; }
 nobr { white-space: normal; }
 
-body, html 
+body, html
 {
 	height: 100%;
 	width: 100%;
 }
 
-body, html, div 
+body, html, div
 {
 	margin: 0px;
 	padding: 0px;
 	position: relative;
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 16px;
 	line-height: 16px;
 	color: #333;
 	font-weight: normal;
 }
 
-ul, ol, li 
+ul, ol, li
 {
 	list-style-type: none;
 }
 
-#wrapper 
+#wrapper
 {
 	height: 100%;
   	width: 640px;
@@ -77,4 +77,5 @@ ul, ol, li
 	margin: auto;
 	background-color: #77C159;
 	border-radius: 4px;
+    cursor: move;
 }
