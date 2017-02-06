@@ -12,7 +12,7 @@ function updateBookmark()
 {
 	var bookmark = $('#bookmark');
 
-	templateText = $('#template').val().replace(/\r?\n/g, '\\n'); // Preserve the line formatting
+	var templateText = $('#template').val().replace(/\r?\n/g, '\\n'); // Preserve the line formatting
 
 	if (templateText && templateText != "")
 	{
